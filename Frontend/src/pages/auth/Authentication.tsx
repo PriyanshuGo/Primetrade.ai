@@ -6,7 +6,7 @@ const [login, setLogin] = useState(true);
 
   return (
     <div className="flex items-center justify-center h-screen">
-        {login ? <Login setLogin={setLogin}/> : <Register setLogin={setLogin}/>}
+        {login ? <Login setLogin={setLogin} /> : <Register setLogin={setLogin}/>}
     </div>
   )
 
