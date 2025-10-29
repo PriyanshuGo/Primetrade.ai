@@ -1,7 +1,7 @@
 import Login from "./Login";
 import { useState } from "react";
 import Register from "./Register";
-export function Authentication() {
+export default function Authentication() {
 const [login, setLogin] = useState(true);
 
   return (

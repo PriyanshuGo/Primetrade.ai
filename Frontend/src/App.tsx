@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Authentication } from "@/pages/auth/Authentication";
+import Authentication from "@/pages/auth/Authentication";
 import './App.css'
 import Dashboard from "./pages/dashborad/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
