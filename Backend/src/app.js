@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://primetrade-ai-rho.vercel.app", // frontend origin
+    origin: "https://primetrade-ai-eta.vercel.app", // frontend origin
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true, // if using cookies or auth headers
   })
